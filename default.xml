@@ -9,6 +9,11 @@
            fetch="https://github.com/"
            sync-j="8" />
 
+  <remote  name="td"
+           fetch="git://github.com/TheDolls/"
+           sync-c="true"
+           sync-j="8" />
+
   <remote  name="tg"
            fetch="https://github.com/TEAM--Gummy/"
            review="review.gummyrom.com"
@@ -551,11 +556,11 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tg" revision="kk4.4" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="td" revision="kk4.4" />
   <project path="vendor/Gummy" name="vendor_Gummy" remote="tg" revision="kk4.4" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="tm" revision="cm-11.0" />
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tg" revision="kk4.4" />
-  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="tg" revision="kk4.4" />
-  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="tg" revision="kk4.4" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="td" revision="kk4.4" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="td" revision="kk4.4" />
+  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="td" revision="kk4.4" />
 </manifest>
