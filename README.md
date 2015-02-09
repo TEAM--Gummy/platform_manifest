@@ -1,4 +1,4 @@
-TEAM Gummy
+TEAM Gummy (STELIX)
 ==============
 
 Gummy AOSP 4.4.4
@@ -9,6 +9,9 @@ JAVA NOTICE:
 Gummy now builds with OpendJdk as it's default java, if your build environment still uses java6 then prior to building Gummy enter from the root of your build dir:
 
     {x}   export LEGACY_USE_JAVA6=true
+
+or if your build environment uses Oracle java7 (instead of OpenJava) then prior to building Gummy enter from the root of your build dir:
+    {x}   export USE_ORACLE_JAVA=true
 
 Sync and Build:
 ---------------
@@ -25,23 +28,7 @@ Devices Currently Supported:
 
 This list is always subject to change:
 
-    {x}   Asus Nexus 7 2012
     {x}   Asus Nexus 7 2013
     {x}   HTC One (All Variants besides Sprint)
-    {x}   LG G2 ( All Variants besides Sprint)
-    {x}   LG Nexus 4
     {x}   LG Nexus 5
-    {x}   LG Optimus G Pro
-    {x}   Motorola Droid 4
-    {x}   Motorola Droid Bionic
-    {x}   Motorola Droid Razr
-    {x}   Motorola Droid Razr HD
-    {x}   Motorola Droid Razr M
-    {x}   Oppo Find7 (All Variants)
-    {x}   Oppo Find7a (All Variants)
-    {x}   Samsung Galaxy Nexus (Toro and Maguro)
-    {x}   Samsung Galaxy Note 2 (All Variants)
-    {x}   Samsung Galaxy Note 3 (T-Mobile)
-    {x}   Samsung Galaxy S3 (All Variants)
-    {x}   Samsung Galaxy S4 (All Variants)
-    {x}   Sony Xperia M
+    {x}   OnePlus One
