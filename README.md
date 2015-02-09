@@ -11,6 +11,7 @@ Gummy now builds with OpendJdk as it's default java, if your build environment s
     {x}   export LEGACY_USE_JAVA6=true
 
 or if your build environment uses Oracle java7 (instead of OpenJava) then prior to building Gummy enter from the root of your build dir:
+
     {x}   export USE_ORACLE_JAVA=true
 
 Sync and Build:
