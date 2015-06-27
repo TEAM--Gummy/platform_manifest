@@ -77,7 +77,6 @@
 
   <!-- Kernel Sources -->
   <project path="kernel/asus/flo" name="flo_nexus7" remote="tg" revision="kk4.4" />
-  <project path="kernel/lge/msm8974" name="android_kernel_lg_g2" remote="tg" revision="kk4.4" />
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="tg" revision="kk4.4" />
   <project path="kernel/oneplus/msm8974" name="android_kernel_oneplus_msm8974" remote="tg" revision="kk4.4" />
   <project path="kernel/oppo/find7" name="android_kernel_oppo_find7" remote="tg" revision="kk4.4" />
